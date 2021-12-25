@@ -1,7 +1,7 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-25 11:03:31
- * @LastEditTime: 2021-12-25 22:49:38
+ * @LastEditTime: 2021-12-26 01:10:39
  * @LastEditors: HK560
  * @Description: TTF2NorthStar使用翻译
  * @FilePath: \NorthStarCN_WIKI\Doc\howToUse.md
@@ -96,7 +96,8 @@ CTF with custom settings for Comp games.
 
 ## 开启独立的服务器端
 专用的服务器端允许您在不必使用完整客户端的情况下托管服务器，从而使得服务器更轻量级，更易于长期托管。专用的服务器端仍在开发测试中，所以在使用的同时，预计会出现一些bug。
->NorthStarCN团队正在整合体积更小的仅适合用于作为服务端的文件，待整合完毕你可以使用其在您的服务器部署，之后下载链接会在此发布。
+>**【注】您可以使用整合精简的的服务端文件部署到您的服务器上，操作同理。
+>[下载链接](https://share.weiyun.com/Xibwduya) 由 @超级牛有肉干 提供**
 
 要在Northstar中启用服务器端, 使用 -dedicated参数加载NorthstarLauncher.exe。你可以手动添加这个参数，也可以使用 r2ds.bat批处理文件来完成这个操作。
 
