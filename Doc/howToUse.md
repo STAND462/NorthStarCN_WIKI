@@ -1,15 +1,15 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-25 11:03:31
- * @LastEditTime: 2021-12-25 12:59:28
+ * @LastEditTime: 2021-12-25 13:16:38
  * @LastEditors: HK560
  * @Description: TTF2NorthStar使用翻译
- * @FilePath: \TTF2NorthStarDocCHN\Doc\howToUse.md
+ * @FilePath: \NorthStarCN_WIKI\Doc\howToUse.md
 -->
 # NorthstarClient（北极星客户端）帮助文档
 
 ## 基础使用步骤
-1. 下载最新版本文件
+1. 下载NorthStarCN最新版本文件,你可以在[这里下载](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
 2. 复制所有解压后的文件到游戏的根目录中 (目前仅支持origin客户端)
    - Steam – 打开 Steam>找到 Titanfall 2，将鼠标移动到游戏名称上，同时鼠标右键单击>在弹出的菜单中选择管理，再点击浏览本地文件。
    - Origin – 找到你的游戏安装目录（Titanfall2.exe在的地方）
