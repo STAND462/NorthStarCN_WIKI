@@ -22,8 +22,9 @@
 # 获取更多信息
 **【重要】请点击[这里](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)阅读文档以了解如何配置使用NorthStarCN**
 
-如果你想要下载NorthStarCN客户端请点击[这里](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
+**公开QQ交流群：660908653**
 
+如果你想要下载NorthStarCN客户端请点击[这里](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
 
 如果你想要查看NorthStar原版仓库请点击[这里](https://github.com/R2Northstar/Northstar)
 
