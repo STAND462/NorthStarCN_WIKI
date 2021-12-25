@@ -1,28 +1,28 @@
-ns_server_name "[CN]server name" // 服務器名字，不支持中文
-ns_server_desc "server description" // 服務器描述，不支持中文
-ns_server_password "" // 服務器密碼
-ns_report_server_to_masterserver 1 // 服務器是否報告給MasterServer
-ns_report_sp_server_to_masterserver 0 // 服務器是否報告給MasterServer,在單人模式
+<!--
+ * @Author: HK560
+ * @Date: 2021-12-25 11:03:31
+ * @LastEditTime: 2021-12-25 22:49:38
+ * @LastEditors: HK560
+ * @Description: TTF2NorthStar使用翻译
+ * @FilePath: \NorthStarCN_WIKI\Doc\howToUse.md
+-->
+# NorthstarClient（北极星客户端）帮助文档
 
-ns_auth_allow_insecure 0 // 允许客户端在不使用主服务器进行身份验证的情况下加入您的服务器。主服务器目前是允许客户端直接连接到您的IP而不是通过服务器列表进行验证
-ns_erase_auth_info 1 // 您的服务器是否应该在使用身份验证信息后清除该验证信息，这对于游戏开发非常有帮助，但通常应保持为1
-ns_player_auth_port 8081 // 用于服务器本地身份验证服务器的端口，这是我们前面转发的TCP端口,確保是TCP協議
+## 基础使用步骤
+1. 下载NorthStarCN最新版本文件,你可以在[这里下载](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
+2. 复制所有解压后的文件到游戏的根目录中 (目前仅支持origin客户端)
+   - Steam – 打开 Steam>找到 Titanfall 2，将鼠标移动到游戏名称上，同时鼠标右键单击>在弹出的菜单中选择管理，再点击浏览本地文件。
+   - Origin – 找到你的游戏安装目录（Titanfall2.exe在的地方）
+3.	(可选) 如果想添加启动项，请新建文件名为 ns_startup_args.txt 的文本文件并在文本中添加相关参数
+4.	点击 NorthstarLauncher.exe 运行启动
 
-ns_masterserver_hostname "tf2cn.wolf109909.top" // masterserver hostname
-everything_unlocked 1 // 是否解鎖所有東西
+在加载成功打开游戏后，在游戏主界面你将会看到一条警告信息。提醒您使用NorthStar将自动发送由Origin账号信息生成的Token至NorthStar的MasterServers进行身份验证并用于多人游玩服务.请仔细阅读信息！
+![info](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/Snipaste_2021-12-25_18-47-43.jpg)
+>要使NorthStar正常工作，它需要通过NorthStar的主服务器进行身份验证。将会发送您的Origin账号的部分信息(如用户名）至主服务器MasterServer，账户信息不会被存储或用于任何其他目的。但MasterServer可以由任何人设置架设，请注意你所使用的NorthStar设置的MasterServer是否安全可信！
 
-// 服務器設置
-ns_should_return_to_lobby 1 // 游戏结束后，服务器是否应返回私人比赛大厅，如果为0，则将转到游戏列表中的下一个地图/模式
+>如果您同意这一点，在该信息点击确定。可以随时在模组菜单中更改此选项。
 
-net_chan_limit_mode 2 // 如果为0，则不限制单个客户端的网络通道处理时间。如果为1，则踢出超时的客户端。如果为2，则在控制台中记录超时的客户端
-net_chan_limit_msec_per_sec 100 // 在net_chan_limit_模式下触发响应之前，客户端每秒可以使用的服务器网络通道处理时间的毫秒数
-sv_querylimit_per_sec 10 // number of connectionless packets clients can send to this server per second without getting blocked
-base_tickinterval_mp 0.016666667 // default tickrate: 60 tick
-sv_updaterate_mp 20 // default updaterate: 20 tick
-sv_minupdaterate 20 // unsure if this actually works, but if it does, should set minimum client updaterate
-sv_max_snapshots_multiplayer 300 // this needs to be updaterate * 15, or clients will dc in killreplay
-net_data_block_enabled 0 // not really sure on this, have heard datablock could have security issues? doesn't seem to have any adverse effects being disabled
-host_skip_client_dll_crc  1 // allow people to run modded client dlls, this is mainly so people running pilot visor colour mods can keep those, since they use a client.dll edit
+接下来如图点击 運行 NorthStarCN 即可進入大廳
 ![](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/20211225224108.png)
 
 
@@ -121,7 +121,7 @@ CTF with custom settings for Comp games.
 |ns_server_desc     |  您的服务器在服务器列表中的描述，不支持中文|"server description"|
 |ns_server_password     |如果客户端直接连接并且您使用的是不安全的身份验证，则加入服务器所需的密码|""|
 |ns_report_server_to_masterserver     |您的服务器是否向主服务器报告自身，以便身份验证和在服务器列表中显示|1|
-|ns_report_sp_server_to_masterserver|设置单人模式中，您的服务器是否向主服务器报告自身|0|
+|ns_report_sp_server_to_masterserver|设置单人模式中，您的服务器是否向主服务器报告自身
 |ns_masterserver_hostname|MasterServer域名|"tf2cn.wolf109909.top"|
 |ns_auth_allow_insecure     |允许客户端在不使用主服务器进行身份验证的情况下加入您的服务器。主服务器目前是允许客户端直接连接到您的IP而不是通过服务器列表进行验证|    0     |
 |ns_erase_auth_info     |您的服务器是否应该在使用身份验证信息后清除该验证信息，这对于游戏开发非常有帮助，但通常应保持为1|     1    |
