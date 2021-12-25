@@ -16,9 +16,9 @@
 
 ----
 
-如果你想要下载NorthStarCN客户端请点击[这里])(https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
+如果你想要下载NorthStarCN客户端请点击[这里](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
 
-=======
+
 如果你想要查看帮助文档请点击[这里](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
 
 
