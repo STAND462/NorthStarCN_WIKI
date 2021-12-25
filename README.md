@@ -15,7 +15,7 @@
 我们由衷感谢感激原作者为泰坦陨落2社区贡献和付出，本项目遵守MIT协议。
 
 ----
-如果你想要查看帮助文档请点击[这里](./Doc/howToUse.md)
+如果你想要查看帮助文档请点击[这里](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
 
 如果你想要查看NorthStar原版仓库请点击[这里](https://github.com/R2Northstar/Northstar)
 
