@@ -28,6 +28,8 @@
 
 如果你想要查看NorthStar原版仓库请点击[这里](https://github.com/R2Northstar/Northstar)
 
+现不接受任何有偿帮助且本项目无任何收费项目注意欺骗
+
 **更多信息正在完善...**
 
 -----
