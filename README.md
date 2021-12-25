@@ -1,7 +1,7 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-25 12:06:39
- * @LastEditTime: 2021-12-25 13:14:00
+ * @LastEditTime: 2021-12-25 13:18:34
  * @LastEditors: HK560
  * @Description: 
  * @FilePath: \NorthStarCN_WIKI\README.md
@@ -15,9 +15,12 @@
 我们由衷感谢感激原作者为泰坦陨落2社区贡献和付出，本项目遵守MIT协议。
 
 ----
+
 如果你想要下载NorthStarCN客户端请点击[这里])(https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)
 
-如果你想要查看帮助文档请点击[这里](./Doc/howToUse.md)
+=======
+如果你想要查看帮助文档请点击[这里](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
+
 
 如果你想要查看NorthStar原版仓库请点击[这里](https://github.com/R2Northstar/Northstar)
 
