@@ -1,7 +1,7 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-25 11:03:31
- * @LastEditTime: 2021-12-25 13:16:38
+ * @LastEditTime: 2021-12-25 22:49:38
  * @LastEditors: HK560
  * @Description: TTF2NorthStar使用翻译
  * @FilePath: \NorthStarCN_WIKI\Doc\howToUse.md
@@ -17,9 +17,13 @@
 4.	点击 NorthstarLauncher.exe 运行启动
 
 在加载成功打开游戏后，在游戏主界面你将会看到一条警告信息。提醒您使用NorthStar将自动发送由Origin账号信息生成的Token至NorthStar的MasterServers进行身份验证并用于多人游玩服务.请仔细阅读信息！
+![info](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/Snipaste_2021-12-25_18-47-43.jpg)
 >要使NorthStar正常工作，它需要通过NorthStar的主服务器进行身份验证。将会发送您的Origin账号的部分信息(如用户名）至主服务器MasterServer，账户信息不会被存储或用于任何其他目的。但MasterServer可以由任何人设置架设，请注意你所使用的NorthStar设置的MasterServer是否安全可信！
 
 >如果您同意这一点，在该信息点击确定。可以随时在模组菜单中更改此选项。
+
+接下来如图点击 運行 NorthStarCN 即可進入大廳
+![](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/20211225224108.png)
 
 
 ## 关于模组(MOD)
@@ -35,7 +39,7 @@
 将鼠标悬停在服务器名称上会显示服务器启用了哪些模组以及这些模组的版本。
 每个服务器都可以通过单击其名称连接游戏。
 单击下方的“刷新”按钮，可以刷新服务器列表。
-
+![](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/20211225224254.png)
 ## 如何直连服务器
 如果服务器设置为私人模式且未显示在服务器列表中，则可以通过以下方式从控制台直接连接到该服务器：:
 1.	按~打开命令控制台。如果您绑定了其他按键，则可以在“控制>设置>按键绑定”中更改它
@@ -92,6 +96,7 @@ CTF with custom settings for Comp games.
 
 ## 开启独立的服务器端
 专用的服务器端允许您在不必使用完整客户端的情况下托管服务器，从而使得服务器更轻量级，更易于长期托管。专用的服务器端仍在开发测试中，所以在使用的同时，预计会出现一些bug。
+>NorthStarCN团队正在整合体积更小的仅适合用于作为服务端的文件，待整合完毕你可以使用其在您的服务器部署，之后下载链接会在此发布。
 
 要在Northstar中启用服务器端, 使用 -dedicated参数加载NorthstarLauncher.exe。你可以手动添加这个参数，也可以使用 r2ds.bat批处理文件来完成这个操作。
 
@@ -134,6 +139,8 @@ CTF with custom settings for Comp games.
 ## 其他说明
 
 以上内容均翻译自[NorthStar官方WIKI](https://github.com/R2Northstar/Northstar/wiki)，并进行了适当的补充修改。
+目前文章较混乱，后期会整理。
+
 
 下面是一些其他我们想说的。
 ### 关于无法连接游玩
