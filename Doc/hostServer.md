@@ -1,7 +1,7 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-26 21:07:29
- * @LastEditTime: 2021-12-26 23:17:49
+ * @LastEditTime: 2021-12-27 00:30:00
  * @LastEditors: HK560
  * @Description: 
  * @FilePath: \NorthStarCN_WIKI\Doc\hostServer.md
@@ -27,12 +27,13 @@ NorthStarCN 提供架设服务器方案。通过架设服务器，使用NorthSta
    
    或者你直接把完整的泰坦陨落2下载下来也行...
 4. 下载最新的NorthStarCN客户端，并将客户端文件覆盖到第3.步的本体文件中
-5. 为你的服务器进行配置，请参考[Wiki](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)中的【服务器/私人比赛房间 配置】项目
-6. 为你的服务器配置端口，或有需要则也设置端口转发：
+5. 运行Origin注册表恢复器，这个可以再网上搜索下载
+6. 为你的服务器进行配置，请参考[Wiki](https://github.com/R2NorthstarCN/NorthStarCN_WIKI/wiki/%E5%BF%AB%E9%80%9F%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)中的【服务器/私人比赛房间 配置】项目
+7. 为你的服务器配置端口，或有需要则也设置端口转发：
     - 开启 37015 至 37020 的端口 协议为UDP 
     - 开启 `认证端口` 协议为TCP ，此`认证端口`即 第5.步中你为`ns_player_auth_port`设置的端口号，默认是8081
-7. 启动并登陆Origin
-8. 点击运行第4.步最后本体文件中r2ds.bat即可启动服务端
+8. 启动并登陆Origin
+9. 点击运行第4.步最后本体文件中r2ds.bat即可启动服务端
    
   ![](https://cdn.jsdelivr.net/gh/HK560/MyPicHub@master/res/pic/Snipaste_2021-12-26_22-28-24.jpg)
 
