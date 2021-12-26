@@ -1,7 +1,7 @@
 <!--
  * @Author: HK560
  * @Date: 2021-12-25 11:03:31
- * @LastEditTime: 2021-12-26 17:30:16
+ * @LastEditTime: 2021-12-26 21:39:29
  * @LastEditors: HK560
  * @Description: TTF2NorthStar使用翻译
  * @FilePath: \NorthStarCN_WIKI\Doc\howToUse.md
@@ -103,7 +103,7 @@ CTF with custom settings for Comp games.
 
 ## 开启独立的服务器端
 专用的服务器端允许您在不必使用完整客户端的情况下托管服务器，从而使得服务器更轻量级，更易于长期托管。专用的服务器端仍在开发测试中，所以在使用的同时，预计会出现一些bug。另外，这需要你的服务器运行在windows系统。
-服务器配置应该至少2C4G（2核4G内存），目前有报告2C的服务器不能运行，可能需要4C的，暂时不清楚。
+服务器配置应该至少4C4G，目前有报告2C的服务器不能运行，可能需要4C的，暂时不清楚。
 win7系统不支持，请使用win10，并打上通用的运行库。
 服务端需要安装橘子，登陆橘子账号后再启动NorthStar。
 >**【注】您可以使用整合精简的的服务端文件部署到您的服务器上，操作同理。
