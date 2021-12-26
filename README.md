@@ -8,7 +8,7 @@
  * My Blog: https://blog.hk560.top
 -->
 # 什么是 NorthStarCN ？ 
-`NorthStar` 是一个MOD和MOD框架，它允许玩家用户使用脚本架设他们自己的泰坦陨落2客制化服务器并自定义内容,也能够架设 vanilla 内容。
+`NorthStar` 是一个MOD和MOD框架，它允许玩家用户使用脚本架设他们自己的泰坦陨落2客制化服务器并自定义内容,也能够架设 vanilla 内容。对于普通玩家而言，使用NorthStar能够游玩由NorthStar架设的服务器房间，不经过官方服务器。
 
 `NorthStarCN` 则是基于原版NorthStar，进行本地化修改，修改了MasterServer并进行了部分汉化，使得在中国大陆环境下能更流畅使用NorthStar框架并进行多人联机，并提供相关可使用的MOD。该项目由国内泰坦陨落粉丝玩家维护。
 
